@@ -6,7 +6,7 @@ Project aims to develop Context API and Styled Components skills in addition to 
 
 008 - Clarus Library (folder)
 |
-|----readme.md      
+|----readme.md         # Given to the students (Definition of the project)
 SOLUTION
 ├── public
 │     └── index.html
@@ -67,7 +67,6 @@ SOLUTION
 │        └── theme.js
 ├── package.json
 └── yarn.lock
-```
 
 ### Outcome of the Project
 

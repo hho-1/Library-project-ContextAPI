@@ -67,7 +67,6 @@ SOLUTION
 │        └── theme.js
 ├── package.json
 └── yarn.lock
-
 ### Outcome of the Project
 
 

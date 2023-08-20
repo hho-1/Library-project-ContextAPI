@@ -4,9 +4,9 @@
 
 Project aims to develop Context API and Styled Components skills in addition to other React topics. HTML, CSS, JS are also used.
 
-008 - Clarus Library (folder)
+Clarus Library
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md
 SOLUTION
 ├── public
 │     └── index.html
@@ -66,7 +66,6 @@ SOLUTION
 │        ├── Global.styles.jsx
 │        └── theme.js
 ├── package.json
-└── yarn.lock
 ### Outcome of the Project
 
 

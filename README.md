@@ -72,9 +72,9 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Objective
+## Project Result
 
-Build a Clarus Library using ReactJS.
+https://main--symphonious-marzipan-65beea.netlify.app
 
 ### At the end of the project, following topics are to be covered;
 

@@ -1,7 +1,7 @@
 
 // Navbar Style
 import styled from "styled-components";
-import Flex from "../../styles/Flex";
+import Flex from "../../styles/Flex.styled";
 import { NavLink } from "react-router-dom";
 
 export const Nav = styled(Flex)`

@@ -1,3 +1,5 @@
+// footer Style
+// footer Style
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`

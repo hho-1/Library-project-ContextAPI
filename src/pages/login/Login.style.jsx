@@ -1,23 +1,25 @@
+// Login Style
 import styled from "styled-components";
-import Flex from "../../styles/Flex.styled";
+import Flex from "../../styles/Flex";
 
 export const LoginContainer = styled(Flex)`
-    min-height: 90vh;
+  min-height: 90vh;
   background-image: url("https://picsum.photos/1600/900");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-`
+`;
+
 export const FormContainer = styled(Flex)`
-    width: 40rem;
+  width: 40rem;
   height: 40rem;
   max-width: 50rem;
   padding: 0.5rem;
   flex-direction: column;
-`
+`;
 
 export const StyledForm = styled.form`
-    display: flex;
+  display: flex;
   flex-direction: column;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
@@ -32,7 +34,7 @@ export const StyledForm = styled.form`
   letter-spacing: 0.5px;
   outline: none;
   border: none;
-`
+`;
 
 export const StyledInput = styled.input`
   display: block;
@@ -71,14 +73,14 @@ export const StyledButton = styled.button`
   }
 `;
 
-export const LoginHeading = styled.h1`
+export const LoginHeader = styled.h1`
   font-size: 2rem;
   text-align: center;
   width: 100%;
-  //-webkit-text-fill-color: transparent;
-  color: ${({ theme }) => theme.colors.headerFormColor};
-  //transform: translate(0.1em, 0.1em);
-  //background-image: linear-gradient(305deg, darkblue, yellow, darkblue);
-  /* background-clip: text;
-  -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transform: translate(0.1em, 0.1em);
+  background-image: linear-gradient(305deg, darkblue, yellow, darkblue);
+  background-clip: text;
+  -webkit-background-clip: text;
 `;

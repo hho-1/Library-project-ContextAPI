@@ -6,12 +6,12 @@ export const ThemeContext = createContext();
 
 //? 2-provider component
 
-const ThemeContextProvider = ({children}) => {
+const ThemeContextProvider = props => {
   const [myTheme, setMyTheme] = useState("light");
 
   return (
     <ThemeContext.Provider value={{ myTheme, setMyTheme }}>
-      {children}
+      {props.children}
     </ThemeContext.Provider>
   );
 };

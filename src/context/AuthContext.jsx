@@ -1,16 +1,24 @@
-import { createContext, useState } from "react";
+// Auth Context
 
-export const AuthContext = createContext()
+import { createContext, useEffect, useState } from "react";
+//? 1-Creating Context
+export const AuthContext = createContext();
 
-const AuthContextProvider = ({children}) => {
-    const [user, setUser] = useState(false)
-    
+//? 2-provider component
 
-    return (
-        <AuthContext.Provider value={{user, setUser}}>
-            {children}
-        </AuthContext.Provider>
-    )
-}
+const AuthContextProvider = props => {
+  const [user, setUser] = useState(sessionStorage.getItem("user") || false);
+  //   console.log(user);
+
+  useEffect(() => {
+    sessionStorage.setItem("user", user);
+  }, [user]);
+
+  return (
+    <AuthContext.Provider value={{ user, setUser }}>
+      {props.children}
+    </AuthContext.Provider>
+  );
+};
 
 export default AuthContextProvider;

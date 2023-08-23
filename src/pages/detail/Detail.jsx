@@ -1,7 +1,7 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+
+import React from "react";
 import { useLocation, useParams } from "react-router-dom";
-import { useBooksContext } from "../../context/BooksContext";
+
 import {
   Description,
   DetailContainer,

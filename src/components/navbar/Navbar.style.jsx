@@ -46,5 +46,6 @@ export const MenuLink = styled(NavLink)`
   }
   &.active {
     text-decoration: underline;
+    color: ${({ theme }) => theme.colors.linkHoverColor};
   }
 `;

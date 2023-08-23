@@ -77,10 +77,9 @@ export const LoginHeader = styled.h1`
   font-size: 2rem;
   text-align: center;
   width: 100%;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  color: #ea7b49;
   transform: translate(0.1em, 0.1em);
-  background-image: linear-gradient(305deg, darkblue, yellow, darkblue);
-  background-clip: text;
-  -webkit-background-clip: text;
+  /* background-image: linear-gradient(305deg, darkblue, yellow, darkblue);
+  background-clip: text; */
+  
 `;

@@ -35,8 +35,8 @@ const Header = () => {
           {/* <option>All</option>
           <option>Books</option>
           <option>Magazines</option> */}
-          {printType.map(item => (
-            <option value={item}>{item}</option>
+          {printType.map((item, index) => (
+            <option key={index} value={item}>{item}</option>
           ))}
         </SelectBox>
         <SearchBtn>Search</SearchBtn>

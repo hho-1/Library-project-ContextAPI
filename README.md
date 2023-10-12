@@ -76,6 +76,8 @@ SOLUTION
 
 https://main--symphonious-marzipan-65beea.netlify.app
 
+One can write a random username and random password to login and see protected pages. Register page is to be created.
+
 ### At the end of the project, following topics are to be covered;
 
 - HTML
